@@ -1,0 +1,17 @@
+h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 65px;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Montserrat Bold";
+    font-size: 40px;
+    color: black;
+    font-style: normal;
+    text-align: center;
+}
+
