@@ -1,0 +1,20 @@
+div#header {
+  border: 1px solid #842210;
+}
+body {
+  background: #bcf5bc;
+}
+body h1 {
+  color: darkblue;
+  font-size: 60px;
+  float: left;
+  text-align: center;
+  width: 75%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside {
+  background: #90ee90;
+  float: right;
+  left: 75%;
+  width: 25%;
+}
