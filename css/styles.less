@@ -1,6 +1,6 @@
 @border-width: 1px;
 @red: #842210;
-@main: #90EE90;
+@main: #458934;
 @mainLight: lighten(@main, 10%);
 @mainDark: darken(@main, 10%);
 
@@ -17,11 +17,24 @@ body {
         text-align: center;
         width: 75%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: center;
     }
 }
 aside {
     background: @main;
-    float: right;
-    left: 75%;
-    width: 25%;
+    border: 1px solid #ccc;
+}
+
+@media screen and (min-width: 760px) {
+    aside {
+        background: @main;
+        float: right;
+        left: 75%;
+        width: 25%;
+    }
+    body {
+        background: @mainDark;
+        float: left;
+        width: 70%;
+    }
 }
