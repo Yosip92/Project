@@ -10,7 +10,7 @@ body header {
   text-align: center;
   width: 75%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 100px;
+
 }
 aside {
   background: #458934;
@@ -23,10 +23,16 @@ aside {
     float: right;
     left: 75%;
     width: 25%;
+    margin-top: -500px;
   }
   body {
     background: #326426;
     float: left;
     width: 70%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  aside {
+    margin-top: -400px;
   }
 }
